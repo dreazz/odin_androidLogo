@@ -21,15 +21,17 @@ div div {background: #A4CA39; position: relative;}
 }
 .l_ant{
 	height: 32px;width:5px;
-	color:red;
+	
 	margin:0rem 0rem -2rem 1rem;
+	transform: rotate(-20deg);
+	border-radius: 40px;
 }
 .r_ant{
-	height: 40px;width:5px;
-	color:red;
-	
+	height: 30px;width:5px;
+		
 	margin-left:9rem;
-	
+	transform: rotate(20deg);
+	border-radius: 40px;
 }
 .l_eye{
 	background-color:white;	
@@ -52,8 +54,28 @@ border-radius: 100%;
 	
 }
 .l_arm{
+		
+	height:5rem;width:1.5rem;
+margin-left: -2rem;
+margin-bottom:-5rem;
+border-radius: 30px
+
 
 }
 .r_arm{
-	
+height:5rem;width:1.5rem;
+margin-left: 10.5rem;
+border-radius: 30px
+}
+
+.l_leg{
+	height:3rem;width: 1.5rem;
+	margin-bottom:-3rem;
+	margin-left:2rem;
+	border-radius: 0 0 25px 25px;
+}
+.r_leg{
+	height:3rem;width: 1.5rem;
+	margin-left: 7rem;
+	border-radius: 0 0 25px 25px;
 }
